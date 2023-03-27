@@ -1,0 +1,33 @@
+html{
+    background-color: rgb(240, 222, 163);
+}
+#subtitulo{
+    text-align: center;
+    font-size: 24px;
+}
+#textoficha{
+    float:left;
+    margin-left: 550px;
+    margin-right: 1000px;
+}
+.gatitos{
+    margin-left: auto;
+    text-align: right;
+    font-size: 24px;
+    text-decoration: none;
+    float: right;
+    margin-right: 5%;
+}
+.footer{
+    text-align: center;
+}
+#tablaGatos{
+    text-decoration: none;
+    font-size: 24px;
+}
+.subMenu{
+    font-size: 24px;
+    text-align: center;
+    word-spacing: 100px;
+    font-weight: bold;
+}
