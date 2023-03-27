@@ -1,83 +1,15 @@
 html{
-    background-color: rgb(52, 52, 52);
+    background: #575353;
 }
-.cuerpoCentral{
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: fixed;
+.carousel-inner img {
+    width: 400px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.lateral{
-    height: 100%;
-    width: 20%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: rgb(60, 60, 60);
-}
-nav a{
-    display: block;
-    padding: 8% 10%;
-    text-decoration: none;
-    color: lightgray;
-    font-size: 20px;
-    text-align: center;
-} 
-nav a:hover{
-    color: black;
-}
-.cuadro-azul{
-    display: flex;
-    margin-left: 20%;
-    width: 78%;
-    height: 25%;
-    background: rgb(0, 215, 244);
-    text-indent: 10%;
-    color: rgb(0, 0, 0);
-    overflow: auto;
-}
-.cuadro-amarillo{
-    display: flex;
-    margin-left: 20%;
-    width: 78%;
-    height: 25%;
-    background: rgb(255, 245, 0);
-    text-indent: 10%;
-    color: rgb(0, 0, 0);
-    overflow: auto;
 
-}
-.cuadro-naranja{
-    display: flex;
-    margin-left: 20%;
-    width: 78%;
-    height: 25%;
-    background: rgb(253, 122, 2);
-    text-indent: 10%;
-    color: rgb(0, 0, 0);
-    overflow: auto;
-
-}
-#cuadro-rojo{
-    display: flex;
-    margin-left: 20%;
-    width: 78%;
-    height: 25%;
-    background: rgb(254, 0, 10);
-    text-indent: 10%;
-    color: rgb(0, 0, 0);
-    overflow: auto;
-
-
-}
-p{
-    font-weight: 600;
-    font-size: 25px;
-    font-family: sans-serif;
-    word-wrap: break-word;
-}
-span{
-    font-size: 30px;
+.carousel-inner{
+    width: 360px;
+    height: 360px;
+    background: #adc4463f;
 }
